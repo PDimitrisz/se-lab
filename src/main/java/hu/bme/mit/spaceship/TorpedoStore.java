@@ -32,11 +32,8 @@ public class TorpedoStore {
 
   public boolean fire(int numberOfTorpedos){
     if(numberOfTorpedos < 1 || numberOfTorpedos > this.torpedoCount){
-<<<<<<< HEAD
-=======
   
         throw new IllegalArgumentException("numberOfTorpedos");
->>>>>>> 7464f80 (Javaslat kijavitva)
       
     }
 
